@@ -1,7 +1,7 @@
-package com.example.api.service;
+package com.ttc.api.service;
 
-import com.example.api.model.Item;
-import com.example.api.repository.ItemRepository;
+import com.ttc.api.model.Item;
+import com.ttc.api.repository.ItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,8 +26,8 @@ public class ItemService {
 
     public Item updateItem(Long id, Item itemDetails) {
         Item item = getItemById(id);
-        item.setName(itemDetails.getName());
-        item.setDescription(itemDetails.getDescription());
+        item.setAppName(itemDetails.getAppName());
+        item.setAppDescription(itemDetails.getAppDescription());
         return repository.save(item);
     }
 

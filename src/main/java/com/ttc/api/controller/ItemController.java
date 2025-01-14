@@ -1,7 +1,7 @@
-package com.example.api.controller;
+package com.ttc.api.controller;
 
-import com.example.api.model.Item;
-import com.example.api.service.ItemService;
+import com.ttc.api.model.Item;
+import com.ttc.api.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

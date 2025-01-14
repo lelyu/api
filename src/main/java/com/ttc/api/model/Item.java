@@ -1,4 +1,4 @@
-package com/ttc.api.model;
+package com.ttc.api.model;
 import jakarta.persistence.*;
 
 
